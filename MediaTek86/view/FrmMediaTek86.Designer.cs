@@ -41,12 +41,12 @@
             this.dgvPersonnel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPersonnel.Location = new System.Drawing.Point(12, 12);
             this.dgvPersonnel.Name = "dgvPersonnel";
-            this.dgvPersonnel.Size = new System.Drawing.Size(264, 161);
+            this.dgvPersonnel.Size = new System.Drawing.Size(452, 255);
             this.dgvPersonnel.TabIndex = 0;
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(12, 179);
+            this.btnAjouter.Location = new System.Drawing.Point(12, 287);
             this.btnAjouter.Name = "btnAjouter";
             this.btnAjouter.Size = new System.Drawing.Size(75, 23);
             this.btnAjouter.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             // btnModifier
             // 
-            this.btnModifier.Location = new System.Drawing.Point(110, 179);
+            this.btnModifier.Location = new System.Drawing.Point(118, 287);
             this.btnModifier.Name = "btnModifier";
             this.btnModifier.Size = new System.Drawing.Size(75, 23);
             this.btnModifier.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             // btnSupprimer
             // 
-            this.btnSupprimer.Location = new System.Drawing.Point(201, 179);
+            this.btnSupprimer.Location = new System.Drawing.Point(220, 287);
             this.btnSupprimer.Name = "btnSupprimer";
             this.btnSupprimer.Size = new System.Drawing.Size(75, 23);
             this.btnSupprimer.TabIndex = 3;
@@ -73,7 +73,7 @@
             // 
             // btnAbsences
             // 
-            this.btnAbsences.Location = new System.Drawing.Point(12, 218);
+            this.btnAbsences.Location = new System.Drawing.Point(325, 287);
             this.btnAbsences.Name = "btnAbsences";
             this.btnAbsences.Size = new System.Drawing.Size(117, 23);
             this.btnAbsences.TabIndex = 4;
@@ -84,7 +84,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(488, 324);
             this.Controls.Add(this.btnAbsences);
             this.Controls.Add(this.btnSupprimer);
             this.Controls.Add(this.btnModifier);

@@ -37,7 +37,7 @@
             // 
             // btnConnexion
             // 
-            this.btnConnexion.Location = new System.Drawing.Point(101, 80);
+            this.btnConnexion.Location = new System.Drawing.Point(168, 100);
             this.btnConnexion.Name = "btnConnexion";
             this.btnConnexion.Size = new System.Drawing.Size(94, 23);
             this.btnConnexion.TabIndex = 0;
@@ -81,14 +81,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(274, 135);
             this.Controls.Add(this.txtLogin);
             this.Controls.Add(this.txtPwd);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnConnexion);
             this.Name = "FrmConnexion";
-            this.Text = "Form1";
+            this.Text = "FrmConnexion";
             this.ResumeLayout(false);
             this.PerformLayout();
 

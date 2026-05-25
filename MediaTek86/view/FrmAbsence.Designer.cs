@@ -39,7 +39,7 @@
             // lblPersonnel
             // 
             this.lblPersonnel.AutoSize = true;
-            this.lblPersonnel.Location = new System.Drawing.Point(22, 25);
+            this.lblPersonnel.Location = new System.Drawing.Point(12, 9);
             this.lblPersonnel.Name = "lblPersonnel";
             this.lblPersonnel.Size = new System.Drawing.Size(35, 13);
             this.lblPersonnel.TabIndex = 0;
@@ -48,14 +48,14 @@
             // dgvAbsences
             // 
             this.dgvAbsences.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAbsences.Location = new System.Drawing.Point(25, 41);
+            this.dgvAbsences.Location = new System.Drawing.Point(15, 25);
             this.dgvAbsences.Name = "dgvAbsences";
-            this.dgvAbsences.Size = new System.Drawing.Size(260, 159);
+            this.dgvAbsences.Size = new System.Drawing.Size(447, 262);
             this.dgvAbsences.TabIndex = 1;
             // 
             // btnAjouterAbsence
             // 
-            this.btnAjouterAbsence.Location = new System.Drawing.Point(25, 218);
+            this.btnAjouterAbsence.Location = new System.Drawing.Point(15, 308);
             this.btnAjouterAbsence.Name = "btnAjouterAbsence";
             this.btnAjouterAbsence.Size = new System.Drawing.Size(75, 23);
             this.btnAjouterAbsence.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             // btnSupprimerAbsence
             // 
-            this.btnSupprimerAbsence.Location = new System.Drawing.Point(210, 218);
+            this.btnSupprimerAbsence.Location = new System.Drawing.Point(234, 308);
             this.btnSupprimerAbsence.Name = "btnSupprimerAbsence";
             this.btnSupprimerAbsence.Size = new System.Drawing.Size(75, 23);
             this.btnSupprimerAbsence.TabIndex = 3;
@@ -73,7 +73,7 @@
             // 
             // btnModifierAbsence
             // 
-            this.btnModifierAbsence.Location = new System.Drawing.Point(117, 218);
+            this.btnModifierAbsence.Location = new System.Drawing.Point(126, 308);
             this.btnModifierAbsence.Name = "btnModifierAbsence";
             this.btnModifierAbsence.Size = new System.Drawing.Size(75, 23);
             this.btnModifierAbsence.TabIndex = 4;
@@ -84,7 +84,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(485, 340);
             this.Controls.Add(this.btnModifierAbsence);
             this.Controls.Add(this.btnSupprimerAbsence);
             this.Controls.Add(this.btnAjouterAbsence);
