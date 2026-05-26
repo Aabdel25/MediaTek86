@@ -149,7 +149,7 @@
     <EmbeddedResource Include="view\FrmMediaTek86.resx">
       <DependentUpon>FrmMediaTek86.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="MediaTek86.zip" />
+    <None Include="docMediaTek86.zip" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

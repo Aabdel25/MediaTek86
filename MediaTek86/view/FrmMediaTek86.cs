@@ -16,5 +16,10 @@ namespace MediaTek86.view
         {
             InitializeComponent();
         }
+
+        private void dgvPersonnel_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
