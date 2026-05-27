@@ -29,5 +29,14 @@ namespace MediaTek86.model
         /// Libellé du motif
         /// </summary>
         public string Libelle { get; set; }
+        /// <summary>
+        /// Retourne le libellé du motif
+        /// </summary>
+        /// <returns>libellé du motif</returns>
+        public override string ToString()
+        {
+            return this.Libelle;
+        }
+
     }
 }
