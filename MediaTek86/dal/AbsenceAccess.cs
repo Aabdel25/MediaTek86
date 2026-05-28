@@ -127,9 +127,10 @@ namespace MediaTek86.dal
         }
 
         /// <summary>
-        /// Supprime une absence en base
+        /// CU8 - Supprime une absence en base de données.
+        /// Identifie l'absence par sa clé primaire composite (idpersonnel, datedebut).
         /// </summary>
-        /// <param name="absence">absence à supprimer</param>
+        /// <param name="absence">objet absence à supprimer</param>
         public void DelAbsence(Absence absence)
         {
             if (access.Manager != null)
