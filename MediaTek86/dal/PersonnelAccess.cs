@@ -94,9 +94,10 @@ namespace MediaTek86.dal
         }
 
         /// <summary>
-        /// Modifie un personnel en base
+        /// CU3 - Modifie un personnel existant en base de données.
+        /// Met à jour nom, prénom, tel, mail et service du personnel.
         /// </summary>
-        /// <param name="personnel">personnel à modifier</param>
+        /// <param name="personnel">objet personnel à modifier</param>
         public void UpdatePersonnel(Personnel personnel)
         {
             if (access.Manager != null)
