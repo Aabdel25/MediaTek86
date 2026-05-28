@@ -97,9 +97,10 @@ namespace MediaTek86.dal
         }
 
         /// <summary>
-        /// Modifie une absence en base
+        /// CU7 - Modifie une absence existante en base de données.
+        /// Met à jour la date de fin et le motif de l'absence.
         /// </summary>
-        /// <param name="absence">absence modifiée</param>
+        /// <param name="absence">objet absence à modifier</param>
         public void UpdateAbsence(Absence absence)
         {
             if (access.Manager != null)
