@@ -63,9 +63,10 @@ namespace MediaTek86.dal
         }
 
         /// <summary>
-        /// Ajoute un personnel en base
+        /// CU2 - Ajoute un nouveau personnel en base de données.
+        /// Insère nom, prénom, tel, mail et service du personnel.
         /// </summary>
-        /// <param name="personnel">personnel à ajouter</param>
+        /// <param name="personnel">objet personnel à ajouter</param>
         public void AddPersonnel(Personnel personnel)
         {
             if (access.Manager != null)
