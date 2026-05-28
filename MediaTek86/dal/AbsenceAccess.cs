@@ -67,9 +67,10 @@ namespace MediaTek86.dal
         }
 
         /// <summary>
-        /// Ajoute une absence en base
+        /// CU6 - Ajoute une nouvelle absence en base de données.
+        /// Insère idpersonnel, datedebut, datefin et idmotif.
         /// </summary>
-        /// <param name="absence">absence à ajouter</param>
+        /// <param name="absence">objet absence à ajouter</param>
         public void AddAbsence(Absence absence)
         {
             if (access.Manager != null)
