@@ -24,10 +24,11 @@ namespace MediaTek86.dal
         }
 
         /// <summary>
-        /// Vérifie les identifiants du responsable en base
+        /// CU1 - Vérifie les identifiants du responsable en base de données.
+        /// Compare le login et le mot de passe hashé en SHA2-256.
         /// </summary>
-        /// <param name="login">login saisi</param>
-        /// <param name="pwd">mot de passe en clair</param>
+        /// <param name="login">login saisi par l'utilisateur</param>
+        /// <param name="pwd">mot de passe en clair saisi par l'utilisateur</param>
         /// <returns>true si les identifiants sont corrects, false sinon</returns>
         public bool ControleAuthentification(string login, string pwd)
         {
