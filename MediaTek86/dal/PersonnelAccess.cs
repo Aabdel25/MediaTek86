@@ -127,9 +127,10 @@ namespace MediaTek86.dal
         }
 
         /// <summary>
-        /// Supprime un personnel en base
+        /// CU4 - Supprime un personnel en base de données.
+        /// Supprime également toutes les absences associées.
         /// </summary>
-        /// <param name="personnel">personnel à supprimer</param>
+        /// <param name="personnel">objet personnel à supprimer</param>
         public void DelPersonnel(Personnel personnel)
         {
             if (access.Manager != null)
