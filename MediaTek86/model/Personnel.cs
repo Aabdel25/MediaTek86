@@ -53,14 +53,5 @@ namespace MediaTek86.model
         /// Service du personnel
         /// </summary>
         public Service Service { get; set; }
-        
-        /// <summary>
-        /// Retourne le prénom et le nom du personnel
-        /// </summary>
-        /// <returns>prénom et nom</returns>
-        public override string ToString()
-        {
-            return this.Prenom + " " + this.Nom;
-        }
     }
 }

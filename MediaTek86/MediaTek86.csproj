@@ -105,7 +105,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bddManager\BddManager.cs" />
+    <Compile Include="controller\FrmAbsenceController.cs" />
+    <Compile Include="controller\FrmConnexionController.cs" />
+    <Compile Include="controller\FrmMediaTek86Controller.cs" />
+    <Compile Include="dal\AbsenceAccess.cs" />
     <Compile Include="dal\Access.cs" />
+    <Compile Include="dal\MotifAccess.cs" />
+    <Compile Include="dal\PersonnelAccess.cs" />
+    <Compile Include="dal\ResponsableAccess.cs" />
+    <Compile Include="dal\ServiceAccess.cs" />
     <Compile Include="model\Absence.cs" />
     <Compile Include="model\Motif.cs" />
     <Compile Include="model\Personnel.cs" />
@@ -164,8 +172,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="controller\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

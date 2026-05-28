@@ -89,7 +89,7 @@ namespace MediaTek86.view
             if (modif)
             {
                 grbPersonnel.Text = "modifier un personnel";
-        }
+            }
             else
             {
                 grbPersonnel.Text = "ajouter un personnel";
@@ -118,8 +118,8 @@ namespace MediaTek86.view
             else
             {
                 MessageBox.Show("Une ligne doit être sélectionnée.", "Information");
-    }
-}
+            }
+        }
 
         /// <summary>
         /// Clic sur Supprimer : supprime le personnel sélectionné

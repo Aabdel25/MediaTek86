@@ -30,7 +30,7 @@ namespace MediaTek86.view
         /// <summary>
         /// Personnel dont on gère les absences
         /// </summary>
-        private readonly Personnel personnel;
+        private Personnel personnel;
 
         /// <summary>
         /// Constructeur : reçoit le personnel sélectionné
@@ -49,19 +49,10 @@ namespace MediaTek86.view
         private void Init()
         {
             controller = new FrmAbsenceController();
+            lblPersonnel.Text = personnel.Prenom + " " + personnel.Nom;
             RemplirListeAbsences();
             RemplirListeMotifs();
             EnCoursDeModif(false);
-        }
-        /// <summary>
-        /// Remplit le ComboBox avec la liste des personnels
-        /// </summary>
-        private void RemplirListePersonnels()
-        {
-            List<Personnel> lesPersonnels = controller.GetLesPersonnels();
-            cboPersonnel.DataSource = lesPersonnels;
-            cboPersonnel.DisplayMember = "Nom";
-            cboPersonnel.SelectedIndex = cboPersonnel.FindStringExact(personnel.Nom);
         }
 
         /// <summary>
@@ -106,8 +97,8 @@ namespace MediaTek86.view
                 grbAbsence.Text = "ajouter une absence";
                 dtpDateDebut.Value = DateTime.Today;
                 dtpDateFin.Value = DateTime.Today;
-    }
-}
+            }
+        }
 
         /// <summary>
         /// Clic sur Modifier : charge les données de l'absence sélectionnée
@@ -198,16 +189,5 @@ namespace MediaTek86.view
                 EnCoursDeModif(false);
             }
         }
-
-        /// <summary>
-        /// Recharge les absences quand on change de personnel
-        /// </summary>
-        private void cboPersonnel_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            personnel = (Personnel)cboPersonnel.SelectedItem;
-            RemplirListeAbsences();
-            EnCoursDeModif(false);
-        }
-        private bool isLoading = false;
     }
 }

@@ -40,9 +40,10 @@
             this.btnConnexion.Location = new System.Drawing.Point(168, 100);
             this.btnConnexion.Name = "btnConnexion";
             this.btnConnexion.Size = new System.Drawing.Size(94, 23);
-            this.btnConnexion.TabIndex = 0;
+            this.btnConnexion.TabIndex = 2;
             this.btnConnexion.Text = "Se Connecter";
             this.btnConnexion.UseVisualStyleBackColor = true;
+            this.btnConnexion.Click += new System.EventHandler(this.btnConnexion_Click_1);
             // 
             // label1
             // 
@@ -68,14 +69,14 @@
             this.txtPwd.Name = "txtPwd";
             this.txtPwd.PasswordChar = '*';
             this.txtPwd.Size = new System.Drawing.Size(100, 20);
-            this.txtPwd.TabIndex = 3;
+            this.txtPwd.TabIndex = 1;
             // 
             // txtLogin
             // 
             this.txtLogin.Location = new System.Drawing.Point(95, 12);
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(100, 20);
-            this.txtLogin.TabIndex = 4;
+            this.txtLogin.TabIndex = 0;
             // 
             // FrmConnexion
             // 

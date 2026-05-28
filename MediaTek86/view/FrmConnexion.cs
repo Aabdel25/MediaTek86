@@ -29,7 +29,7 @@ namespace MediaTek86.view
         private void Init()
         {
             controller = new FrmConnexionController();
-    }
+        }
 
         /// <summary>
         /// Clic sur le bouton Connexion
@@ -42,7 +42,7 @@ namespace MediaTek86.view
             if (String.IsNullOrEmpty(login) || String.IsNullOrEmpty(pwd))
             {
                 MessageBox.Show("Tous les champs doivent être remplis.", "Information");
-}
+            }
             else
             {
                 if (controller.ControleAuthentification(login, pwd))
