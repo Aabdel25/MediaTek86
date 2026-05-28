@@ -182,9 +182,9 @@
             this.lblPersonnel.AutoSize = true;
             this.lblPersonnel.Location = new System.Drawing.Point(15, 9);
             this.lblPersonnel.Name = "lblPersonnel";
-            this.lblPersonnel.Size = new System.Drawing.Size(35, 13);
+            this.lblPersonnel.Size = new System.Drawing.Size(60, 13);
             this.lblPersonnel.TabIndex = 1;
-            this.lblPersonnel.Text = "label4";
+            this.lblPersonnel.Text = "Personnel :";
             // 
             // FrmAbsence
             // 
@@ -194,7 +194,7 @@
             this.Controls.Add(this.lblPersonnel);
             this.Controls.Add(this.grbLesAbsences);
             this.Name = "FrmAbsence";
-            this.Text = "ajouter une absence";
+            this.Text = "Gestion des absences";
             this.grbLesAbsences.ResumeLayout(false);
             this.grbAbsence.ResumeLayout(false);
             this.grbAbsence.PerformLayout();
