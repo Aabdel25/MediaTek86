@@ -24,10 +24,11 @@ namespace MediaTek86.dal
         }
 
         /// <summary>
-        /// Retourne les absences d'un personnel
+        /// CU5 - Retourne toutes les absences d'un personnel.
+        /// Effectue une jointure avec la table motif.
         /// </summary>
         /// <param name="idpersonnel">identifiant du personnel</param>
-        /// <returns>liste des absences</returns>
+        /// <returns>liste des absences du personnel</returns>
         public List<Absence> GetLesAbsences(int idpersonnel)
         {
             List<Absence> lesAbsences = new List<Absence>();
