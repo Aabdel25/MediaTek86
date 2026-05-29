@@ -47,8 +47,10 @@ namespace MediaTek86.view
             {
                 if (controller.ControleAuthentification(login, pwd))
                 {
+                    this.Hide();
                     FrmMediaTek86 frm = new FrmMediaTek86();
                     frm.ShowDialog();
+                    this.Close();
                 }
                 else
                 {
