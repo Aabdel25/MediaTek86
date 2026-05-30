@@ -46,6 +46,7 @@
             this.btnSupprimer = new System.Windows.Forms.Button();
             this.btnModifier = new System.Windows.Forms.Button();
             this.dgvPersonnel = new System.Windows.Forms.DataGridView();
+            this.mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
             this.grbLesPersonnels.SuspendLayout();
             this.grbPersonnel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersonnel)).BeginInit();
@@ -60,7 +61,7 @@
             this.grbLesPersonnels.Controls.Add(this.dgvPersonnel);
             this.grbLesPersonnels.Location = new System.Drawing.Point(12, 12);
             this.grbLesPersonnels.Name = "grbLesPersonnels";
-            this.grbLesPersonnels.Size = new System.Drawing.Size(680, 313);
+            this.grbLesPersonnels.Size = new System.Drawing.Size(740, 285);
             this.grbLesPersonnels.TabIndex = 5;
             this.grbLesPersonnels.TabStop = false;
             this.grbLesPersonnels.Text = "les personnels";
@@ -79,7 +80,7 @@
             this.grbPersonnel.Controls.Add(this.label3);
             this.grbPersonnel.Controls.Add(this.label2);
             this.grbPersonnel.Controls.Add(this.label1);
-            this.grbPersonnel.Location = new System.Drawing.Point(384, 28);
+            this.grbPersonnel.Location = new System.Drawing.Point(440, 28);
             this.grbPersonnel.Name = "grbPersonnel";
             this.grbPersonnel.Size = new System.Drawing.Size(284, 235);
             this.grbPersonnel.TabIndex = 7;
@@ -189,7 +190,7 @@
             // 
             // btnAbsences
             // 
-            this.btnAbsences.Location = new System.Drawing.Point(273, 240);
+            this.btnAbsences.Location = new System.Drawing.Point(318, 240);
             this.btnAbsences.Name = "btnAbsences";
             this.btnAbsences.Size = new System.Drawing.Size(75, 23);
             this.btnAbsences.TabIndex = 6;
@@ -199,7 +200,7 @@
             // 
             // btnSupprimer
             // 
-            this.btnSupprimer.Location = new System.Drawing.Point(149, 240);
+            this.btnSupprimer.Location = new System.Drawing.Point(172, 240);
             this.btnSupprimer.Name = "btnSupprimer";
             this.btnSupprimer.Size = new System.Drawing.Size(75, 23);
             this.btnSupprimer.TabIndex = 2;
@@ -209,7 +210,7 @@
             // 
             // btnModifier
             // 
-            this.btnModifier.Location = new System.Drawing.Point(15, 240);
+            this.btnModifier.Location = new System.Drawing.Point(41, 240);
             this.btnModifier.Name = "btnModifier";
             this.btnModifier.Size = new System.Drawing.Size(75, 23);
             this.btnModifier.TabIndex = 1;
@@ -228,14 +229,21 @@
             this.dgvPersonnel.ReadOnly = true;
             this.dgvPersonnel.RowHeadersVisible = false;
             this.dgvPersonnel.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPersonnel.Size = new System.Drawing.Size(354, 191);
+            this.dgvPersonnel.Size = new System.Drawing.Size(419, 191);
             this.dgvPersonnel.TabIndex = 0;
+            // 
+            // mySqlCommand1
+            // 
+            this.mySqlCommand1.CacheAge = 0;
+            this.mySqlCommand1.Connection = null;
+            this.mySqlCommand1.EnableCaching = false;
+            this.mySqlCommand1.Transaction = null;
             // 
             // FrmMediaTek86
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 337);
+            this.ClientSize = new System.Drawing.Size(764, 303);
             this.Controls.Add(this.grbLesPersonnels);
             this.Name = "FrmMediaTek86";
             this.Text = "FrmMediaTek86";
@@ -266,5 +274,6 @@
         private System.Windows.Forms.Button btnAnnulPersonnel;
         private System.Windows.Forms.Button btnEnregPersonnel;
         private System.Windows.Forms.ComboBox cboService;
+        private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
     }
 }

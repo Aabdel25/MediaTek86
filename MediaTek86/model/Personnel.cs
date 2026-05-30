@@ -53,5 +53,13 @@ namespace MediaTek86.model
         /// Service du personnel
         /// </summary>
         public Service Service { get; set; }
+        
+        /// <summary>
+        /// Retourne le nom du service du personnel
+        /// </summary>
+        public string NomService
+        {
+            get { return this.Service.Nom; }
+        }
     }
 }
