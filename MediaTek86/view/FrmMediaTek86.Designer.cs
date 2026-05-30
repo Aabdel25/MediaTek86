@@ -61,7 +61,7 @@
             this.grbLesPersonnels.Controls.Add(this.dgvPersonnel);
             this.grbLesPersonnels.Location = new System.Drawing.Point(12, 12);
             this.grbLesPersonnels.Name = "grbLesPersonnels";
-            this.grbLesPersonnels.Size = new System.Drawing.Size(740, 285);
+            this.grbLesPersonnels.Size = new System.Drawing.Size(706, 285);
             this.grbLesPersonnels.TabIndex = 5;
             this.grbLesPersonnels.TabStop = false;
             this.grbLesPersonnels.Text = "les personnels";
@@ -80,16 +80,16 @@
             this.grbPersonnel.Controls.Add(this.label3);
             this.grbPersonnel.Controls.Add(this.label2);
             this.grbPersonnel.Controls.Add(this.label1);
-            this.grbPersonnel.Location = new System.Drawing.Point(440, 28);
+            this.grbPersonnel.Location = new System.Drawing.Point(476, 19);
             this.grbPersonnel.Name = "grbPersonnel";
-            this.grbPersonnel.Size = new System.Drawing.Size(284, 235);
+            this.grbPersonnel.Size = new System.Drawing.Size(224, 235);
             this.grbPersonnel.TabIndex = 7;
             this.grbPersonnel.TabStop = false;
             this.grbPersonnel.Text = "ajouter un personnel";
             // 
             // btnAnnulPersonnel
             // 
-            this.btnAnnulPersonnel.Location = new System.Drawing.Point(150, 206);
+            this.btnAnnulPersonnel.Location = new System.Drawing.Point(124, 206);
             this.btnAnnulPersonnel.Name = "btnAnnulPersonnel";
             this.btnAnnulPersonnel.Size = new System.Drawing.Size(75, 23);
             this.btnAnnulPersonnel.TabIndex = 11;
@@ -229,7 +229,7 @@
             this.dgvPersonnel.ReadOnly = true;
             this.dgvPersonnel.RowHeadersVisible = false;
             this.dgvPersonnel.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPersonnel.Size = new System.Drawing.Size(419, 191);
+            this.dgvPersonnel.Size = new System.Drawing.Size(447, 191);
             this.dgvPersonnel.TabIndex = 0;
             // 
             // mySqlCommand1
@@ -243,7 +243,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(764, 303);
+            this.ClientSize = new System.Drawing.Size(730, 303);
             this.Controls.Add(this.grbLesPersonnels);
             this.Name = "FrmMediaTek86";
             this.Text = "FrmMediaTek86";
